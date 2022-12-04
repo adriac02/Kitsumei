@@ -15,14 +15,42 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 6197438946256040244}
   - {fileID: 8058388386431883613}
-  EditorEvents: []
+  EditorEvents:
+  - {fileID: 3964346178358037937}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8058388386431883613}
   StringsBanks:
   - {fileID: 6197438946256040244}
-  cacheTime: 638056894132837271
+  cacheTime: 638057819641815197
   cacheVersion: 131593
+--- !u!114 &3964346178358037937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Test
+  m_EditorClassIdentifier: 
+  Path: event:/Test
+  Guid:
+    Data1: 1459177997
+    Data2: 1149782496
+    Data3: 2125988485
+    Data4: 1546665234
+  Banks:
+  - {fileID: 8058388386431883613}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 93336
 --- !u!114 &6197438946256040244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38,10 +66,10 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638056894132837271
+  lastModified: 638057819641815197
   FileSizes:
   - Name: Desktop
-    Value: 712
+    Value: 754
   Exists: 1
 --- !u!114 &8058388386431883613
 MonoBehaviour:
@@ -58,8 +86,8 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638056894132827295
+  lastModified: 638057819641795251
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 1391872
   Exists: 1
