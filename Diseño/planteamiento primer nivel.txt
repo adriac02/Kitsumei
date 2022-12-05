@@ -1,0 +1,38 @@
+// Comienzo
+Entra en la casa "Día duro de trabajo, al menos ya se ha acabado"
+El sonido del radiador se triggerea y el de la calle del pasillo es constante ruido blanco
+// Radiador y giro de esquina
+Cuando se acerca al radiador dice "Estos radiadores hacen mucho ruido, la verdad"
+Cuando va a girar la esquina tiene que sonar el primer bus por la ventana.
+// Pasillo
+A medida que va avanzando por el pasillo cada vez que se acerca a una puerta suena el pomo
+// Ventana pasillo
+Si se acerca a la ventana del pasillo "Cada vez que pasa un bus por la calle parece que el piso se va a caer"
+// Cocina
+Se escucha a los vecinos hablar al otro lado de la pared (discusion, niños jugando un poco de todo)
+Si se acerca dice "Esos son los vecinos, no les conozco mucho tampoco"
+// Salón
+Se escuchará la calle y al acercarse a la ventana dirá "Me gustan las calles ruidosas, la verdad"
+// Habitación 
+Cuando entre tiene que decir "Vaya, me he dejado el pc encendido"
+Al acercarse se oirá tecleo y una voz robotica dirá "La descarga no ha terminado, cerrar de todos modos?"
+y responderá "Ah, uff. Mejor lo dejo a ver si acaba pronto"
+// Baño
+Al entrar dirá "Es eso la ducha otra vez?" al acercarse dirá "Tendré que llamar a un fontanero otra vez la verdad.
+
+// General
+La primera vez que entra en cada habitación dirá donde está "La cocina" "Salón dulce salón" cosas así
+
+// Telefono
+Después de que haya visitado todas las habitaciones sonará el telefeno en el salón
+"Ese es el fijo del salón"
+Al llegar y recogerlo habrá una conversación corta donde Mario no entenderá mucho y colgará sin saber muy bien que decir
+a una persona medio gritando
+
+// Sofá
+"Bueno, creo que es momento de relajarse no?"
+Si intenta salir no podrá "Quiero ver la tele un rato la verdad"
+Habrá que encender la tele y tumbarse en el sofá "Mi canal favorito (bostezo), me pregunto que dirán de la economía"
+
+// Dentro del sueño
+Nos vamos al nivel 2 sin interrupcion ninguna y haciendo que se note lo menos posible.
