@@ -1,0 +1,10 @@
+// Cocina
+Dirá casi susurrando "Me apetece algo de picar"
+Se levanta y ahora tiene que ir a la cocina, cuando llega se hace algo de comer en el microondas o algo
+// Pasillo 
+Se oye el suelo mojado 
+"Pero qué?"
+Se oye la ducha abierta
+"Me he dejado la ducha abierta?"
+Ahora no podrá entrar en ninguna habitacion que no sea la ducha
+// Ducha
