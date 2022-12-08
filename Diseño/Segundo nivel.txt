@@ -8,3 +8,11 @@ Se oye la ducha abierta
 "Me he dejado la ducha abierta?"
 Ahora no podrá entrar en ninguna habitacion que no sea la ducha
 // Ducha
+Al llegar se escucha con más claridad la ducha corriendo
+La cierra interactuando
+// Después
+Al cerrarla empezará a escuchar una especie de susurro (a su derecha) que irá aumentando hasta que sea un rugido que luego se desvanezca.
+Al poco tiempo: Una explosión (En su oido izquierdo)
+
+//
+De momento podemos dejarlo por aquí y que se despierte luego en el sofá asustado porque no sé si va a dar tiempo a algo más
