@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44666767, g: 0.49156654, b: 0.5482388, a: 1}
+  m_IndirectSpecularColor: {r: 0.44666737, g: 0.49156606, b: 0.5482385, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -188,6 +188,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2e0b7ae4dae8cf44955bccd3512b213, type: 3}
+--- !u!1 &166617556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5241267463746980526, guid: f2e0b7ae4dae8cf44955bccd3512b213, type: 3}
+  m_PrefabInstance: {fileID: 166617555}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &166617557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166617556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03eca8bfd003d114d8a423b761384e5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FootstepsEventPath:
+    Guid:
+      Data1: -1173294021
+      Data2: 1162153781
+      Data3: -997874025
+      Data4: 1285931067
+    Path: event:/Andar
+  MaterialParameterName: Material
+  StepDistance: 2
+  RayDistance: 2
+  MaterialTypes:
+  - Pasillo
+  - "Ba\xF1o"
+  - Habitacion
+  DefulatMaterialValue: 0
 --- !u!1 &391958356
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,3 +539,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ab38ee82f6d48e40977f6801f9bdc73, type: 3}
+--- !u!1 &5122273580624653987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5122273580597345303, guid: 4ab38ee82f6d48e40977f6801f9bdc73, type: 3}
+  m_PrefabInstance: {fileID: 5122273580624653986}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5122273580624653988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5122273580624653987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 2
+  Banks:
+  - Suelos
+  CollisionTag: 
+  PreloadSamples: 0
