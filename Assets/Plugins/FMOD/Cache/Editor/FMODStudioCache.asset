@@ -82,8 +82,32 @@ MonoBehaviour:
   - {fileID: 8058388386431883613}
   StringsBanks:
   - {fileID: 6197438946256040244}
-  cacheTime: 638062252292551113
+  cacheTime: 638062291695078429
   cacheVersion: 131593
+--- !u!114 &2808688003332231263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Test/isBlocked
+  m_EditorClassIdentifier: 
+  Name: isBlocked
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4203260595
+    data2: 1954908758
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &3964346178358037937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,7 +131,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 2808688003332231263}
   MinDistance: 1
   MaxDistance: 20
   Length: 93336
@@ -126,10 +151,10 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638062252291811107
+  lastModified: 638062291694679473
   FileSizes:
   - Name: Desktop
-    Value: 1080
+    Value: 1120
   Exists: 1
 --- !u!114 &6458910352455936896
 MonoBehaviour:
@@ -170,7 +195,7 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Suelos.bank
   Name: Suelos
   StudioPath: bank:/Suelos
-  lastModified: 638062252292042481
+  lastModified: 638062291694898900
   FileSizes:
   - Name: Desktop
     Value: 152576
@@ -245,10 +270,10 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638062252291791170
+  lastModified: 638062291694659530
   FileSizes:
   - Name: Desktop
-    Value: 1391872
+    Value: 1392864
   Exists: 1
 --- !u!114 &8337324187372433489
 MonoBehaviour:
@@ -265,7 +290,7 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Puertas.bank
   Name: Puertas
   StudioPath: bank:/Puertas
-  lastModified: 638062252292551113
+  lastModified: 638062291695078429
   FileSizes:
   - Name: Desktop
     Value: 73536

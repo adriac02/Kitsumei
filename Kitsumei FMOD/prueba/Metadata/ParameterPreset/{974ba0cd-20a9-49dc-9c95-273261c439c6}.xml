@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{974ba0cd-20a9-49dc-9c95-273261c439c6}">
+		<property name="name">
+			<value>isBlocked</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cb3874e7-5006-46e9-8dc8-d2250eef9a78}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a92ab3c8-6525-4768-a19d-1dd8155b81cc}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a92ab3c8-6525-4768-a19d-1dd8155b81cc}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
