@@ -25,7 +25,6 @@ public class SoundEmitterLowPass : MonoBehaviour
     {
         Debug.DrawLine(transform.position, player.position);
         if (Physics.Linecast(transform.position, player.position,3)){
-            Debug.Log("Blocked");
             blocked= true;
         }
         else

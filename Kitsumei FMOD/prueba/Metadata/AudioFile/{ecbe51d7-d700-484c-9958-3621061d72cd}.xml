@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ecbe51d7-d700-484c-9958-3621061d72cd}">
+		<property name="assetPath">
+			<value>ducha_corriendo.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>19.837312499999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bf13f029-da30-43d3-bfbe-38ba4a256546}</destination>
+		</relationship>
+	</object>
+</objects>

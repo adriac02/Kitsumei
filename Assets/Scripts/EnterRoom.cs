@@ -8,6 +8,9 @@ public class EnterRoom : MonoBehaviour
     [SerializeField] private FMODUnity.EventReference EnterRoomEvent;        // Use this in the Editor to select our Footsteps Event.
     [SerializeField] private string ParameterName;
     public int ParameterValue;
+    private bool entered = false;
+
+    public bool isRoom = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,12 @@ public class EnterRoom : MonoBehaviour
     {
         if(other.gameObject.GetComponent<Footsteps>() != null)
         {
+            if (!entered && isRoom)
+            {
+                Debug.Log("Entrado en habitacion");
+                GameManager.instance.increaseRooms();
+                entered = true;
+            }
             FMOD.Studio.EventInstance Footstep = FMODUnity.RuntimeManager.CreateInstance(EnterRoomEvent);
             Footstep.setParameterByName(ParameterName, ParameterValue);
             Footstep.start();

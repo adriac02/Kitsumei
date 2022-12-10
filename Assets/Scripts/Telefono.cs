@@ -36,7 +36,6 @@ public class Telefono : MonoBehaviour
     {
         if (Physics.Linecast(transform.position, player.position, 3))
         {
-            Debug.Log("Blocked");
             blocked = true;
         }
         else
@@ -62,11 +61,14 @@ public class Telefono : MonoBehaviour
 
             descolgado = true;
             Telef.setParameterByName("step", 2);
+            GameManager.instance.increaseStoryStep();
         }
         else
         {
             
             Telef.setParameterByName("step", 3);
+            GameManager.instance.increaseStoryStep();
+            GameManager.instance.bloquearPuerta();
         }
         Telef.start();
         Telef.release();

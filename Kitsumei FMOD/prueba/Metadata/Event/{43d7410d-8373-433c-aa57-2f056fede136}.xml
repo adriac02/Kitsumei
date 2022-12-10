@@ -142,6 +142,9 @@
 		<property name="start">
 			<value>2</value>
 		</property>
+		<property name="volume">
+			<value>-26</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>

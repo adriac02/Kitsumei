@@ -48,7 +48,6 @@ public class PlayerDetection : MonoBehaviour
 
     void checkLook()
     {
-        Debug.Log("Checking look");
         if(last != null && last.GetComponent<Door>() != null) {
             last.GetComponent<Door>().PlayDoorClick();
         }

@@ -43,10 +43,10 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Objetos.bank
   Name: Objetos
   StudioPath: bank:/Objetos
-  lastModified: 638062774212069632
+  lastModified: 638062909250396204
   FileSizes:
   - Name: Desktop
-    Value: 225696
+    Value: 5165536
   Exists: 1
 --- !u!114 &-2321197596800095043
 MonoBehaviour:
@@ -128,6 +128,34 @@ MonoBehaviour:
   - Habitacion
   - Agua
   Exists: 1
+--- !u!114 &-176556662539136112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ducha
+  m_EditorClassIdentifier: 
+  Path: event:/Ducha
+  Guid:
+    Data1: 830840005
+    Data2: 1159366833
+    Data3: -22766696
+    Data4: -1962569220
+  Banks:
+  - {fileID: -6395512811127895218}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1277718801900093687}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19837
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,12 +184,16 @@ MonoBehaviour:
   - {fileID: 7815463962284709405}
   - {fileID: 872514847937243800}
   - {fileID: 1247914589052449938}
+  - {fileID: 5917744378743797696}
+  - {fileID: 2157007829917002860}
+  - {fileID: -176556662539136112}
+  - {fileID: 5490291257285498781}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8058388386431883613}
   StringsBanks:
   - {fileID: 6197438946256040244}
-  cacheTime: 638062774212069632
+  cacheTime: 638062909250396204
   cacheVersion: 131593
 --- !u!114 &872514847937243800
 MonoBehaviour:
@@ -220,6 +252,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &1277718801900093687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ducha/isBlocked
+  m_EditorClassIdentifier: 
+  Name: isBlocked
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4203260595
+    data2: 1954908758
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &1965435329420876998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,7 +291,7 @@ MonoBehaviour:
   Name: Objeto
   StudioPath: 
   Min: 0
-  Max: 4
+  Max: 6
   Default: 0
   ID:
     data1: 3237264303
@@ -248,7 +304,36 @@ MonoBehaviour:
   - Ducha
   - Vecinos
   - PC
+  - Fontanero
+  - Descarga
   Exists: 1
+--- !u!114 &2157007829917002860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Calle
+  m_EditorClassIdentifier: 
+  Path: event:/Calle
+  Guid:
+    Data1: -1443934904
+    Data2: 1232884630
+    Data3: -1567767629
+    Data4: 629699901
+  Banks:
+  - {fileID: -6395512811127895218}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 198693
 --- !u!114 &2808688003332231263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -319,7 +404,7 @@ MonoBehaviour:
   - {fileID: 8058388386431883613}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters:
   - {fileID: 2808688003332231263}
   MinDistance: 1
@@ -353,6 +438,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &5490291257285498781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TV
+  m_EditorClassIdentifier: 
+  Path: event:/TV
+  Guid:
+    Data1: 1980598240
+    Data2: 1231971138
+    Data3: 1447201682
+    Data4: 457818785
+  Banks:
+  - {fileID: -6395512811127895218}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 143702
+--- !u!114 &5917744378743797696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Radiador
+  m_EditorClassIdentifier: 
+  Path: event:/Radiador
+  Guid:
+    Data1: 1771586600
+    Data2: 1170866418
+    Data3: -765469564
+    Data4: 7287816
+  Banks:
+  - {fileID: -6395512811127895218}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12736
 --- !u!114 &6197438946256040244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -368,10 +507,10 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638062774210414096
+  lastModified: 638062909221513609
   FileSizes:
   - Name: Desktop
-    Value: 1546
+    Value: 1700
   Exists: 1
 --- !u!114 &6458910352455936896
 MonoBehaviour:
@@ -436,7 +575,7 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Suelos.bank
   Name: Suelos
   StudioPath: bank:/Suelos
-  lastModified: 638062774211551013
+  lastModified: 638062909221982300
   FileSizes:
   - Name: Desktop
     Value: 234528
@@ -483,10 +622,10 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Narrativa.bank
   Name: Narrativa
   StudioPath: bank:/Narrativa
-  lastModified: 638062774211870158
+  lastModified: 638062909222301440
   FileSizes:
   - Name: Desktop
-    Value: 933888
+    Value: 966400
   Exists: 1
 --- !u!114 &7815463962284709405
 MonoBehaviour:
@@ -559,10 +698,10 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638062774210384144
+  lastModified: 638062909221483648
   FileSizes:
   - Name: Desktop
-    Value: 1392864
+    Value: 1392992
   Exists: 1
 --- !u!114 &8337324187372433489
 MonoBehaviour:
@@ -579,7 +718,7 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Puertas.bank
   Name: Puertas
   StudioPath: bank:/Puertas
-  lastModified: 638062774210613516
+  lastModified: 638062909221722988
   FileSizes:
   - Name: Desktop
     Value: 73536
