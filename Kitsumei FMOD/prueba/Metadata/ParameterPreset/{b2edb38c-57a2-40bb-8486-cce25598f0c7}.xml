@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{b2edb38c-57a2-40bb-8486-cce25598f0c7}">
+		<property name="name">
+			<value>Objeto</value>
+		</property>
+		<relationship name="folder">
+			<destination>{cb3874e7-5006-46e9-8dc8-d2250eef9a78}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{760186cd-aa70-41a0-b29d-e2751338e0ae}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{760186cd-aa70-41a0-b29d-e2751338e0ae}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Radiador</value>
+			<value>Ventanas</value>
+			<value>Ducha</value>
+			<value>Vecinos</value>
+			<value>PC</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

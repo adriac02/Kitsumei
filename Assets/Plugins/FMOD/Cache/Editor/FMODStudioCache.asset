@@ -1,5 +1,77 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6489651503430266896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Habitaciones/Habitaciones
+  m_EditorClassIdentifier: 
+  Name: Habitaciones
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 1741775386
+    data2: 2699129359
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Habitacion
+  - Salon
+  - Cocina
+  - "Ba\xF1o"
+  Exists: 1
+--- !u!114 &-6395512811127895218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Objetos.bank
+  m_EditorClassIdentifier: 
+  Path: Kitsumei FMOD/prueba/Build/Desktop/Objetos.bank
+  Name: Objetos
+  StudioPath: bank:/Objetos
+  lastModified: 638062774212069632
+  FileSizes:
+  - Name: Desktop
+    Value: 225696
+  Exists: 1
+--- !u!114 &-2321197596800095043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Telefono/step
+  m_EditorClassIdentifier: 
+  Name: step
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 4283179214
+    data2: 2899068252
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-2157751148468311001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,7 +115,7 @@ MonoBehaviour:
   Name: Material
   StudioPath: 
   Min: 0
-  Max: 2
+  Max: 3
   Default: 0
   ID:
     data1: 911193183
@@ -54,6 +126,7 @@ MonoBehaviour:
   - Pasillo
   - "Ba\xF1o"
   - Habitacion
+  - Agua
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -72,18 +145,110 @@ MonoBehaviour:
   - {fileID: 8058388386431883613}
   - {fileID: 6990396325534757121}
   - {fileID: 8337324187372433489}
+  - {fileID: 7719604515553580166}
+  - {fileID: -6395512811127895218}
   EditorEvents:
   - {fileID: 3964346178358037937}
   - {fileID: -2157751148468311001}
   - {fileID: 7442338300824427942}
   - {fileID: 8018384542307423324}
+  - {fileID: 5045305063154431415}
+  - {fileID: 7815463962284709405}
+  - {fileID: 872514847937243800}
+  - {fileID: 1247914589052449938}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8058388386431883613}
   StringsBanks:
   - {fileID: 6197438946256040244}
-  cacheTime: 638062291695078429
+  cacheTime: 638062774212069632
   cacheVersion: 131593
+--- !u!114 &872514847937243800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaccion
+  m_EditorClassIdentifier: 
+  Path: event:/Interaccion
+  Guid:
+    Data1: -632706825
+    Data2: 1175612578
+    Data3: -290298749
+    Data4: 1460268421
+  Banks:
+  - {fileID: 7719604515553580166}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1965435329420876998}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1247914589052449938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Telefono
+  m_EditorClassIdentifier: 
+  Path: event:/Telefono
+  Guid:
+    Data1: 1138180365
+    Data2: 1128039283
+    Data3: 86988714
+    Data4: 920776047
+  Banks:
+  - {fileID: -6395512811127895218}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2321197596800095043}
+  - {fileID: 6728315042465278171}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1965435329420876998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Interaccion/Objeto
+  m_EditorClassIdentifier: 
+  Name: Objeto
+  StudioPath: 
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 3237264303
+    data2: 1093500952
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Radiador
+  - Ventanas
+  - Ducha
+  - Vecinos
+  - PC
+  Exists: 1
 --- !u!114 &2808688003332231263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,6 +270,30 @@ MonoBehaviour:
     data1: 4203260595
     data2: 1954908758
   Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &3908249078042728797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StepStory/stepStory
+  m_EditorClassIdentifier: 
+  Name: stepStory
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 712163579
+    data2: 3477285475
+  Type: 1
   IsGlobal: 0
   Labels: []
   Exists: 1
@@ -136,6 +325,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 93336
+--- !u!114 &5045305063154431415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/StepStory
+  m_EditorClassIdentifier: 
+  Path: event:/StepStory
+  Guid:
+    Data1: -1335873003
+    Data2: 1322733366
+    Data3: -396578936
+    Data4: -1849629592
+  Banks:
+  - {fileID: 7719604515553580166}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3908249078042728797}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &6197438946256040244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,10 +368,10 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638062291694679473
+  lastModified: 638062774210414096
   FileSizes:
   - Name: Desktop
-    Value: 1120
+    Value: 1546
   Exists: 1
 --- !u!114 &6458910352455936896
 MonoBehaviour:
@@ -180,6 +397,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6728315042465278171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Telefono/isBlocked
+  m_EditorClassIdentifier: 
+  Name: isBlocked
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4203260595
+    data2: 1954908758
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &6990396325534757121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,10 +436,10 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Suelos.bank
   Name: Suelos
   StudioPath: bank:/Suelos
-  lastModified: 638062291694898900
+  lastModified: 638062774211551013
   FileSizes:
   - Name: Desktop
-    Value: 152576
+    Value: 234528
   Exists: 1
 --- !u!114 &7442338300824427942
 MonoBehaviour:
@@ -227,6 +468,54 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1825
+--- !u!114 &7719604515553580166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Narrativa.bank
+  m_EditorClassIdentifier: 
+  Path: Kitsumei FMOD/prueba/Build/Desktop/Narrativa.bank
+  Name: Narrativa
+  StudioPath: bank:/Narrativa
+  lastModified: 638062774211870158
+  FileSizes:
+  - Name: Desktop
+    Value: 933888
+  Exists: 1
+--- !u!114 &7815463962284709405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Habitaciones
+  m_EditorClassIdentifier: 
+  Path: event:/Habitaciones
+  Guid:
+    Data1: 1148640384
+    Data2: 1095466373
+    Data3: -859618647
+    Data4: 795528263
+  Banks:
+  - {fileID: 7719604515553580166}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6489651503430266896}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8018384542307423324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,7 +559,7 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638062291694659530
+  lastModified: 638062774210384144
   FileSizes:
   - Name: Desktop
     Value: 1392864
@@ -290,7 +579,7 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Puertas.bank
   Name: Puertas
   StudioPath: bank:/Puertas
-  lastModified: 638062291695078429
+  lastModified: 638062774210613516
   FileSizes:
   - Name: Desktop
     Value: 73536

@@ -52,6 +52,9 @@ public class PlayerDetection : MonoBehaviour
         if(last != null && last.GetComponent<Door>() != null) {
             last.GetComponent<Door>().PlayDoorClick();
         }
+        else if(last != null && last.GetComponent<Telefono>() !=null) {
+            last.GetComponent<Telefono>().PlayTelClick();
+        }
     }
 
     void checkClick()
@@ -59,6 +62,10 @@ public class PlayerDetection : MonoBehaviour
         if (last != null && last.GetComponent<Door>() != null)
         {
             last.GetComponent<Door>().useDoor();
+        }
+        else if (last != null && last.GetComponent<Telefono>() != null)
+        {
+            last.GetComponent<Telefono>().useTel();
         }
     }
 }

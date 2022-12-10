@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f078cfa6-7d18-4c9a-828b-e7e62a08087f}">
+		<property name="assetPath">
+			<value>explosion_radiador.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9.8151041666666661</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bf13f029-da30-43d3-bfbe-38ba4a256546}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -442,6 +442,8 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Narrativa
+  - Objetos
   - Puertas
   - Suelos
   BanksToLoad: []
