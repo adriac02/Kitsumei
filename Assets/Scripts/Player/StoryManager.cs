@@ -50,11 +50,31 @@ public class StoryManager : MonoBehaviour
 
             stepCompleted = true;
         }
+        if (!stepCompleted && storyStep == 6)
+        {
+            Story.setParameterByName("stepStory", storyStep);
+            Story.start();
+
+            stepCompleted = true;
+        }
+        if (!stepCompleted && storyStep == 7)
+        {
+            Story.setParameterByName("stepStory", storyStep);
+            Story.start();
+
+            stepCompleted = true;
+        }
     }
 
     public int GetStoryStep() { return storyStep; }
     public void IncreaseStoryStep(int i) { 
         storyStep += i;
+        stepCompleted = false;
+    }
+
+    public void setStoryStep(int i)
+    {
+        storyStep = i;
         stepCompleted = false;
     }
 }

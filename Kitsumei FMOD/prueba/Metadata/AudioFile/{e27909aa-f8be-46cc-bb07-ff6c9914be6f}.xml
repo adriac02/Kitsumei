@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e27909aa-f8be-46cc-bb07-ff6c9914be6f}">
+		<property name="assetPath">
+			<value>on_crank.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.9786458333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bf13f029-da30-43d3-bfbe-38ba4a256546}</destination>
+		</relationship>
+	</object>
+</objects>

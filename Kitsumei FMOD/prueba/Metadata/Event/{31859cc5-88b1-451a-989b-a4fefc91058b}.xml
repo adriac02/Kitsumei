@@ -63,7 +63,11 @@
 			<destination>{64fbc397-4dc4-4810-8c8e-ec7b9c276540}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{0bef74a0-0846-44f8-ad94-ee1915504af6}" />
+	<object class="EventAutomatableProperties" id="{0bef74a0-0846-44f8-ad94-ee1915504af6}">
+		<property name="maximumDistance">
+			<value>75</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{7ddfb9f7-5887-4a6b-a9b1-bae53b14a28d}" />
 	<object class="Timeline" id="{8debbc7b-65b8-4003-9430-2a85f586fc9d}">
 		<relationship name="modules">
@@ -143,7 +147,11 @@
 	<object class="MixerBusPanner" id="{5214aa51-0dc0-40d4-907d-a8f8d2152960}" />
 	<object class="MixerBusFader" id="{647b887e-7ffc-4f73-bdb6-07be05015c56}" />
 	<object class="MixerBusFader" id="{a4158223-3191-4ab4-8505-8e2b39d98634}" />
-	<object class="SpatialiserEffect" id="{9d8fa4d3-0c8b-46e0-a317-beb50da86ba4}" />
+	<object class="SpatialiserEffect" id="{9d8fa4d3-0c8b-46e0-a317-beb50da86ba4}">
+		<property name="maximumDistance">
+			<value>75</value>
+		</property>
+	</object>
 	<object class="ThreeEQEffect" id="{d7fc6a92-025f-4501-b5b3-16f50ac18271}">
 		<relationship name="automators">
 			<destination>{94d96091-019a-41a0-beee-b7c0dc8ca541}</destination>

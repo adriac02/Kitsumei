@@ -43,7 +43,7 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Objetos.bank
   Name: Objetos
   StudioPath: bank:/Objetos
-  lastModified: 638062909250396204
+  lastModified: 638063067713747849
   FileSizes:
   - Name: Desktop
     Value: 5165536
@@ -128,6 +128,33 @@ MonoBehaviour:
   - Habitacion
   - Agua
   Exists: 1
+--- !u!114 &-1008182771100960546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FinalTrigger
+  m_EditorClassIdentifier: 
+  Path: event:/FinalTrigger
+  Guid:
+    Data1: -975465897
+    Data2: 1160221941
+    Data3: 845331841
+    Data4: -2088322691
+  Banks:
+  - {fileID: 7719604515553580166}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11315
 --- !u!114 &-176556662539136112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,7 +181,7 @@ MonoBehaviour:
   Parameters:
   - {fileID: 1277718801900093687}
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 75
   Length: 19837
 --- !u!114 &11400000
 MonoBehaviour:
@@ -188,12 +215,13 @@ MonoBehaviour:
   - {fileID: 2157007829917002860}
   - {fileID: -176556662539136112}
   - {fileID: 5490291257285498781}
+  - {fileID: -1008182771100960546}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8058388386431883613}
   StringsBanks:
   - {fileID: 6197438946256040244}
-  cacheTime: 638062909250396204
+  cacheTime: 638063067713747849
   cacheVersion: 131593
 --- !u!114 &872514847937243800
 MonoBehaviour:
@@ -373,7 +401,7 @@ MonoBehaviour:
   Name: stepStory
   StudioPath: 
   Min: 0
-  Max: 7
+  Max: 8
   Default: 0
   ID:
     data1: 712163579
@@ -507,10 +535,10 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638062909221513609
+  lastModified: 638063067712481228
   FileSizes:
   - Name: Desktop
-    Value: 1700
+    Value: 1744
   Exists: 1
 --- !u!114 &6458910352455936896
 MonoBehaviour:
@@ -575,7 +603,7 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Suelos.bank
   Name: Suelos
   StudioPath: bank:/Suelos
-  lastModified: 638062909221982300
+  lastModified: 638063067712920096
   FileSizes:
   - Name: Desktop
     Value: 234528
@@ -622,10 +650,10 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Narrativa.bank
   Name: Narrativa
   StudioPath: bank:/Narrativa
-  lastModified: 638062909222301440
+  lastModified: 638063067713358883
   FileSizes:
   - Name: Desktop
-    Value: 966400
+    Value: 1241472
   Exists: 1
 --- !u!114 &7815463962284709405
 MonoBehaviour:
@@ -698,7 +726,7 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638062909221483648
+  lastModified: 638063067712461275
   FileSizes:
   - Name: Desktop
     Value: 1392992
@@ -718,7 +746,7 @@ MonoBehaviour:
   Path: Kitsumei FMOD/prueba/Build/Desktop/Puertas.bank
   Name: Puertas
   StudioPath: bank:/Puertas
-  lastModified: 638062909221722988
+  lastModified: 638063067712670713
   FileSizes:
   - Name: Desktop
     Value: 73536

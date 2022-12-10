@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{1e4b7ee9-0132-49f5-91f3-4a07fa32fa38}">
+		<property name="assetPath">
+			<value>21-confusion.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.9141043083900229</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bf13f029-da30-43d3-bfbe-38ba4a256546}</destination>
+		</relationship>
+	</object>
+</objects>
